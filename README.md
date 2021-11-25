@@ -1,7 +1,6 @@
  # Tic Tac Toe - App
  
- ## Description: 
- This is Tic tac toe game built in JAVA
+ ## Description: This is Tic tac toe game built in JAVA
 
 ## ScreenShots:
 
