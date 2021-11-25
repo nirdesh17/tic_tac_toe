@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="Welcome">Tic Tac Toe</string>
+    <string name="creater">Created by \n Nirdesh Devadiya</string>
+    <string name="start">Tap anywhere to Play</string>
+    <string name="hello">image</string>
+    <string name="Reset">reset</string>
+</resources>
