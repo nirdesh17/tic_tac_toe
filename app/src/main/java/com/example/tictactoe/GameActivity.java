@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -20,6 +21,7 @@ public class GameActivity extends AppCompatActivity {
     int activegame=0;
     int counter=1;
     int [] gameState={2,2,2,2,2,2,2,2,2};
+    private Button RESET;
 
     int [][]winPositions = {{0,1,2},{3,4,5},{6,7,8},
                             {0,3,6},{1,4,7},{2,5,8},
@@ -94,5 +96,13 @@ public class GameActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
+        RESET = (Button) findViewById(R.id.btnreeset);
+        RESET.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(GameActivity.this,GameActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -140,8 +140,19 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.615" />
+        app:layout_constraintVertical_bias="0.205" />
+
+    <Button
+        android:id="@+id/btnreeset"
+        android:layout_width="139dp"
+        android:layout_height="48dp"
+        android:text="@string/Reset"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/status" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
