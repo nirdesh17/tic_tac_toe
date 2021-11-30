@@ -149,6 +149,7 @@
         android:layout_width="139dp"
         android:layout_height="48dp"
         android:text="@string/Reset"
+        android:textColor="#F1EBEB"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
