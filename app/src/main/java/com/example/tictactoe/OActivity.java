@@ -12,6 +12,7 @@ public class OActivity extends AppCompatActivity {
     {
         Intent intent = new Intent(OActivity.this,GameActivity.class);
         startActivity(intent);
+        finish();
     }
 
     @Override

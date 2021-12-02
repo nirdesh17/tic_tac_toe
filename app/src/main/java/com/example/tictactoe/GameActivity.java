@@ -67,7 +67,8 @@ public class GameActivity extends AppCompatActivity {
                     winnerStr = "X has won";
                     activegame=1;
                     Intent intent = new Intent(GameActivity.this,XActivity.class);
-                            startActivity(intent);
+                    startActivity(intent);
+                    finish();
                 }
                 else
                 {
@@ -75,6 +76,7 @@ public class GameActivity extends AppCompatActivity {
                     activegame=1;
                     Intent intent = new Intent(GameActivity.this,OActivity.class);
                     startActivity(intent);
+                    finish();
                 }
 
                 // Update the status bar for winner announcement
@@ -102,6 +104,7 @@ public class GameActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(GameActivity.this,GameActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

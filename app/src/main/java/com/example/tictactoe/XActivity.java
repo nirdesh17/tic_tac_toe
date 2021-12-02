@@ -12,6 +12,7 @@ public class XActivity extends AppCompatActivity {
     {
         Intent intent = new Intent(XActivity.this,GameActivity.class);
         startActivity(intent);
+        finish();
     }
 
     @Override
